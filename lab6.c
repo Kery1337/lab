@@ -3,6 +3,8 @@
 #include <windows.h>
 int main()
 {
+{ SetConsoleCP(65001);
+    SetConsoleOutputCP(65001);
     int x1, y1, x2, y2;     //координати першого вектора
     float dx, dy, result;   //координати другого вектора
     printf("Введіть координати першого вектора:\n");
