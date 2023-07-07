@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <math.h>
-
+#include <windows.h>
 int main()
-{
+{ SetConsoleCP(65001);
+    SetConsoleOutputCP(65001);
     int x1, y1, r1, x2, y2, r2;    //Значення центрів кіл та їх радіусів
     float length;                  //Значення довжини між центрами
     printf("Введіть координати центра першого кола:\n");
